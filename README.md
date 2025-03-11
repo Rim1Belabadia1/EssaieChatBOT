@@ -27,8 +27,8 @@ Ce projet est un chatbot conçu pour répondre à des questions concernant les a
 1. Clonez ce repository :
 
    ```bash
-   git clone https://github.com/votre-utilisateur/product-review-chatbot.git
-   cd product-review-chatbot/backend
+   git clone https://github.com/votre-utilisateur/EssaieChatBOT.git
+   cd EssaieChatBOT
    ```
 
 2. Créez un environnement virtuel et installez les dépendances :
@@ -42,7 +42,7 @@ Ce projet est un chatbot conçu pour répondre à des questions concernant les a
 3. Configurez la base de données PostgreSQL :
 
    - Créez une base de données PostgreSQL nommée `reviews_db`.
-   - Modifiez l'URL de connexion dans `backend/main.py` avec vos informations de connexion PostgreSQL.
+   - Modifiez l'URL de connexion dans `EssaieChatBOT/main.py` avec vos informations de connexion PostgreSQL.
 
 4. Lancez l'application backend :
 
@@ -57,7 +57,7 @@ Ce projet est un chatbot conçu pour répondre à des questions concernant les a
 1. Allez dans le répertoire du frontend :
 
    ```bash
-   cd ../frontend
+   cd ../chatbot-interface
    ```
 
 2. Installez les dépendances :
@@ -108,14 +108,6 @@ Si vous souhaitez contribuer à ce projet, voici comment faire :
 
 ## Auteurs
 
-- **Votre Nom** - *Développeur principal* - [Votre GitHub](https://github.com/votre-utilisateur)
+- **Rim Belabadia**
 
-## License
-
-Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
-```
-
-### Points à personnaliser dans ce fichier :
-- Remplacez `votre-utilisateur` par votre nom d'utilisateur GitHub.
-- Assurez-vous d'ajuster les étapes d'installation en fonction de la configuration exacte de votre projet (par exemple, les noms de fichiers, les versions de Python, etc.).
 
